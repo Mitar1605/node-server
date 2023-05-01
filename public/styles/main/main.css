@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header_container .logo_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 28px;
+  color: #005CE5;
+  font-weight: 600;
+}
+header .header_container .header_nav .header_nav_ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+header .header_container .header_nav .header_nav_ul .header_nav_ul_li {
+  padding: 30px 0;
+}
+header .header_container .header_nav .header_nav_ul .header_nav_ul_li .header_nav_ul_li_a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+header .header_container .header_nav .header_nav_ul .header_nav_ul_li .header_nav_ul_li_a:hover {
+  color: grey;
+}
+header .header_container .header_nav .header_nav_ul .header_nav_ul_li .active {
+  border-bottom: 1px solid #000;
+}
+header .header_container .header_nav .header_nav_ul .header_nav_ul_li .active:hover {
+  border-color: grey;
+}
+header .header_container .header_nav .header_nav_ul .header_nav_ul_li .header_nav_ul_li_a_button {
+  padding: 15px 25px;
+  background: #005CE5;
+  color: #fff;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .header_container .header_nav .header_nav_ul .header_nav_ul_li .header_nav_ul_li_a_button:hover {
+  color: #fff;
+  background: #3284ff;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .sect_1 {
+  margin-top: 50px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section .sect_1 .sect_1_title {
+  font-family: "Montserrat", sans-serif;
+}
+section .sect_1 .sect_1_title h1 {
+  font-size: 36px;
+}
+section .sect_1 .sect_1_title h1 span {
+  font-size: 36px;
+  color: #005CE5;
+}
+section .sect_1 .sect_1_title p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+section .sect_1 .sect_1_btns {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 50px;
+}
+section .sect_1 .sect_1_btns .sect_1_contact_btn {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  border-radius: 25px;
+  border: 1px solid #EA2FA6;
+}
+section .sect_1 .sect_1_btns .sect_1_contact_btn a {
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background: #fff;
+  color: #EA2FA6;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  border: 1px solid #EA2FA6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -7px;
+  left: -7px;
+}
+section .sect_1 .sect_1_btns .sect_1_contact_btn a:hover {
+  color: #fff;
+  background: #EA2FA6;
+}
+section .sect_1 .sect_1_btns a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding: 15px 25px;
+  background: #005CE5;
+  color: #fff;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+section .sect_1 .sect_1_btns a:hover {
+  color: #fff;
+  background: #3284ff;
+}
+section .sect_1 .sect_1_image_block {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+section .sect_1 .sect_1_image_block .sect_1_image {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/sect-1-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+section .sect_1 .sect_1_image_block .sect_1_image .sect_1_image_ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+section .sect_1 .sect_1_image_block .sect_1_image .sect_1_image_ul .sect_1_image_ul_li {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 7px;
+}
+section .sect_1 .sect_1_image_block .sect_1_image .sect_1_image_ul .sect_1_image_ul_li img {
+  scale: 0.7;
+}/*# sourceMappingURL=main.css.map */
